@@ -9,10 +9,12 @@ export default function MenuScreen() {
         <S.Header>
             <S.Text>Header</S.Text>
         </S.Header>
-        <S.Viewer>
-            <S.Text>Fernando</S.Text>
-            <S.Text>Furtado</S.Text>
-            <S.Text>Carrilho</S.Text>
+        <S.Viewer horizontal={true}>
+            <S.Card>
+                <S.Element>
+                    <S.Text>Primeiro</S.Text>
+                </S.Element>
+            </S.Card>
         </S.Viewer>
     </S.Container>
 }
